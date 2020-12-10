@@ -26,7 +26,7 @@ df.sort_values(by=['date_time_utc'])
 st.write(df.head(250))
 
 # Show selected cryptocurrency
-'Data for the ', crypto_symbol, 'cryptocurrency:'
+'Data for the ', crypto_symbol, 'cryptocurrency (current selection):'
 # Display data
 st.write(df[(df.symbol == crypto_symbol)])
 # Add note about changing selection
